@@ -1,0 +1,55 @@
+html, body {
+    background-color:#FCB301;
+    font-family: 'Ithaca';
+}
+
+td, .listTitle {
+    background-color: black;
+    color:#FCB301;
+}
+.listStyle {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    max-height: 100px;
+}
+table {
+    width: 200px;
+}
+.chumButton {
+    background:transparent;
+    border:none !important;
+    color:#FCB301;
+    font-family: 'Ithaca';
+    width: 100%;
+    text-align: left;
+}
+
+.editButton {
+    background:transparent;
+    color:#000000;
+    font-family: 'Ithaca';
+    text-align: left;
+}
+
+.status {
+    background:transparent;
+    border:none !important;
+    color:#FCB301;
+    font-family: 'Ithaca';
+    width: 50%;
+    text-align: left;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+@font-face {
+    font-family: 'Ithaca';
+    src: url('Ithaca.woff2') format('woff2'),
+        url('Ithaca.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
